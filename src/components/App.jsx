@@ -3,7 +3,7 @@ import Profile from './Profile/Profile';
 
 const App = () => {
   return (
-    <div className="container">
+    <>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -11,7 +11,7 @@ const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-    </div>
+    </>
   );
 };
 
