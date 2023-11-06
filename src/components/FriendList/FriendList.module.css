@@ -1,0 +1,28 @@
+.list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid grey;
+  padding: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.status {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
