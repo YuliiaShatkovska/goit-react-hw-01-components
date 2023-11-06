@@ -30,6 +30,5 @@ img {
 
 .container {
   padding: 15px;
-  display: flex;
-  justify-content: center;
+  max-width: 500px;
 }
